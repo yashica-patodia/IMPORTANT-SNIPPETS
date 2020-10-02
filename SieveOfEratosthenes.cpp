@@ -20,6 +20,6 @@ int main() {
     Sieve();
     for(int i = 1; i <= 20; i++){
         if(prime[i])
-            cout << i << endl;
+            cout << i << endl;              // prints all prime numbers from 1 - 20
     }
 }
